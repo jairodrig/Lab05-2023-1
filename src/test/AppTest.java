@@ -92,7 +92,7 @@ public class AppTest {
         //PRECISIONA IMPLEMENTAR NA AULA
         int[] array = {  7, 9, 15, 17, 20};
         int[] array2 = { 0, 1,  2, 22, 30};
-        int[] r = { 0, 1,  2, 7, 9, 17, 22, 30};
+        int[] r = { 0, 1,  2, 7, 9, 15, 17, 20, 22, 30};
         assertEquals(r, m.merge(array, array2));
         assertEquals(r, m.merge(array2, array));
         int[] array3 = { 1, 2, 3, 4, 5};
